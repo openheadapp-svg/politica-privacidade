@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidade - Web Rádio & Bíblia Sagrada</title>
+    <style>
+        :root {
+            --primary-color: #1e3a8a;
+            --accent-color: #2563eb;
+            --text-color: #334155;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --warning-bg: #fef3c7;
+            --warning-border: #f59e0b;
+            --warning-text: #92400e;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+            border-bottom: 3px solid var(--accent-color);
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            font-size: 1.4rem;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        p, li {
+            font-size: 1rem;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight-box {
+            background-color: var(--warning-bg);
+            border-left: 5px solid var(--warning-border);
+            color: var(--warning-text);
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+            font-weight: 500;
+        }
+
+        .date-badge {
+            display: inline-block;
+            background-color: #e2e8f0;
+            color: #475569;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            margin-bottom: 25px;
+        }
+
+        .contact-info {
+            background-color: #f1f5f9;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #cbd5e1;
+            margin-top: 20px;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Política de Privacidade</h1>
+    <div class="date-badge">Última atualização: 26 de outubro de 2026</div>
+
+    <p>A <strong>Open Head</strong> está comprometida com a proteção da privacidade e dos dados pessoais de seus usuários. Esta Política de Privacidade descreve como coletamos, usamos, armazenamos e protegemos suas informações ao utilizar nosso aplicativo de <strong>Web Rádio e Bíblia Sagrada</strong>, em conformidade com as diretrizes das Políticas do Desenvolvedor do Google Play Store e com a Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018).</p>
+
+    <h2>1. Informações que Coletamos</h2>
+    <p>Para oferecer uma experiência funcional e contínua no uso da áudio-rádio e leitura bíblica, o aplicativo pode tratar as seguintes informações:</p>
+    <ul>
+        <li><strong>Dados Técnicos e de Desempenho (Coleta Automática):</strong> Informações de desempenho do app, logs de erros (<em>crash logs</em>), modelo do dispositivo, versão do sistema operacional e identificadores anônimos de dispositivo.</li>
+        <li><strong>Endereço IP:</strong> Utilizado temporariamente para conectar seu dispositivo ao servidor de áudio mais próximo e para estatísticas anônimas de transmissão.</li>
+    </ul>
+
+    <div class="highlight-box">
+        <strong>Atenção e Destaque Importante:</strong> O aplicativo <strong>NÃO</strong> solicita e <strong>NÃO</strong> realiza a coleta de dados sensíveis ou pessoais identificáveis, tais como: nome, CPF, e-mail do usuário no app, contatos da agenda, fotos, arquivos do dispositivo, microfone ou localização exata por GPS.
+    </div>
+
+    <h2>2. Permissões Solicitadas ao Dispositivo</h2>
+    <p>O aplicativo solicita apenas as permissões estritamente necessárias para a execução de suas funcionalidades principais:</p>
+    <ul>
+        <li><strong>Acesso à Internet e Estado da Rede (<code>INTERNET</code> / <code>ACCESS_NETWORK_STATE</code>):</strong> Necessário para realizar o streaming de áudio da Web Rádio em tempo real e atualizar o conteúdo bíblico.</li>
+        <li><strong>Serviço em Segundo Plano (<code>FOREGROUND_SERVICE</code> / <code>WAKE_LOCK</code>):</strong> Permite que o áudio da rádio continue em execução enquanto você navega na Bíblia ou utiliza outros aplicativos com a tela bloqueada.</li>
+        <li><strong>Gerenciamento de Áudio em Chamadas (<code>READ_PHONE_STATE</code>):</strong> Utilizada exclusivamente para interromper/pausar a transmissão do áudio quando seu telefone receber uma ligação, retomando o som automaticamente ao encerrar a chamada.</li>
+    </ul>
+
+    <h2>3. Como Utilizamos suas Informações</h2>
+    <p>Os dados técnicos processados são exclusivamente destinados para:</p>
+    <ol>
+        <li>Garantir a transmissão contínua e estável da Web Rádio.</li>
+        <li>Permitir o acesso e a leitura fluida da Bíblia Sagrada integrada.</li>
+        <li>Identificar e corrigir falhas operacionais e de travamento (<em>bugs</em>).</li>
+        <li>Atender às diretrizes de conformidade do Google Play Store.</li>
+    </ol>
+
+    <h2>4. Compartilhamento de Dados com Terceiros</h2>
+    <p>A <strong>Open Head</strong> não vende nem compartilha seus dados pessoais. Podemos utilizar serviços de terceiros estritamente para a infraestrutura do aplicativo, tais como:</p>
+    <ul>
+        <li><strong>Provedores de Streaming de Áudio:</strong> Para estabelecer conexão de áudio ao vivo.</li>
+        <li><strong>Ferramentas de Análise Técnica (ex: Google Firebase Analytics / Crashlytics):</strong> Para análise anônima de desempenho e diagnósticos de falha.</li>
+    </ul>
+
+    <h2>5. Armazenamento de Preferências e Exclusão de Dados</h2>
+    <p>Suas marcações bíblicas, histórico ou preferências de uso ficam salvos <strong>exclusivamente na memória local do seu próprio dispositivo</strong>.</p>
+    
+    <div class="highlight-box">
+        <strong>Como solicitar e realizar a Exclusão de Dados:</strong> Como não mantemos banco de dados com cadastro do usuário, você pode apagar permanentemente todos os seus dados e preferências a qualquer momento <strong>limpando os dados do aplicativo nas Configurações do seu Android</strong> ou simplesmente <strong>desinstalando o aplicativo</strong>.
+    </div>
+
+    <h2>6. Privacidade de Crianças</h2>
+    <p>O aplicativo oferece conteúdo voltado para público geral (família e comunidade religiosa) e não coleta intencionalmente dados de crianças menores de 13 anos (ou limite legal aplicável). Caso os pais ou responsáveis identifiquem qualquer envio inadvertido de dados, solicitamos que entrem em contato para providenciarmos a imediata remoção.</p>
+
+    <h2>7. Alterações nesta Política</h2>
+    <p>Podemos atualizar esta Política de Privacidade periodicamente. Alterações entram em vigor a partir da data de sua publicação nesta página. Recomendamos consultar este documento regularmente.</p>
+
+    <h2>8. Contato e Suporte</h2>
+    <p>Para dúvidas, sugestões ou esclarecimentos sobre esta Política de Privacidade ou sobre o tratamento de dados do aplicativo, entre em contato conosco:</p>
+
+    <div class="contact-info">
+        <p><strong>Empresa / Desenvolvedor:</strong> Open Head</p>
+        <p><strong>E-mail de Contato:</strong> <a href="mailto:open.head.app@gmail.com">open.head.app@gmail.com</a></p>
+        <p><strong>Telefone / WhatsApp:</strong> <a href="tel:+5519999567782">+55 (19) 99956-7782</a></p>
+    </div>
+</div>
+
+</body>
+</html>
